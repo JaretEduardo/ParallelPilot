@@ -1,17 +1,17 @@
-PROMPT_PARALELIZACION = """
-Eres un experto en Python y paralelización con joblib.
-Transforma el siguiente bucle `for` serial en una versión paralela
-usando `joblib.Parallel` y `joblib.delayed`. Sigue estas reglas:
+PROMPT_PARALLELIZATION = """
+You are an expert in Python and parallelization with joblib.
+Transform the following serial `for` loop into a parallel version
+using `joblib.Parallel` and `joblib.delayed`. Follow these rules:
 
-- La función interna debe ser pura: todas las entradas se pasan como argumentos.
-- No uses variables globales.
-- El resultado numérico debe ser idéntico (a nivel de tolerancia de punto flotante).
-- Incluye un manejo básico de errores (try/except) en cada iteración.
-- Devuelve **solo el código Python final**, sin explicaciones, sin markdown,
-  directamente la fuente lista para ejecutarse.
+- The inner function must be pure: all inputs are passed as arguments.
+- Do not use global variables.
+- The numeric result must be identical within floating-point tolerance.
+- Include basic error handling (try/except) in each iteration.
+- Return **only the final Python code**, without explanations, without markdown,
+  just the source ready to run.
 
-Código original (bucle a paralelizar):
+Original code (loop to parallelize):
 ```python
 {codigo}
-Código paralelizado:
+Parallelized code:
 """
