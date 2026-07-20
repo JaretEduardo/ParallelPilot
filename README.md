@@ -151,9 +151,3 @@ This project is licensed under the MIT License.
 - OpenAI, for the Codex and GPT-5.6 tooling that powers the generation and summary workflow.
 - Devpost, for the hackathon platform and project showcase context.
 
-## Contact
-
-- GitHub: [JaretEduardo](https://github.com/JaretEduardo)
-- Devpost: [Add your Devpost profile](https://devpost.com/)
-
-If you are the repository owner, replace the Devpost link above with your personal profile URL.
